@@ -17,7 +17,7 @@ while (True):
     # pattern = re.compile(r'<div class="para" label-module="para">\s+(.*)\s+</div>')
     result = re.findall(pattern, html)
     # print(result)
-    # for each in result:
+    # for each in result:#
     # 	if '<div class="para" label-module="para">' in each:
     # 		new_each = re.sub('<div class="para" label-module="para">', '\n', each)
     #         print(new_each)
