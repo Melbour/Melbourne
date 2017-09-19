@@ -60,6 +60,6 @@ while (True):
             new_each=re.sub(r'(<[aA][^>]+>[^<]+</[aA]>|<[iI][mM][gG][^>]+>)','',new_each)
         if '</a>' in new_each:
             new_each=re.sub('</a>','',new_each)
-        print(new_each)
+        print(new_each)#
         '''
 
