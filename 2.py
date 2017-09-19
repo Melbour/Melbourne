@@ -5,7 +5,7 @@ while (True):
     MyKey = input()
     url = "https://baike.baidu.com/item/" + MyKey
     url = urllib.parse.quote(url)
-    url = re.sub("%3A", ':', url)#
+    url = re.sub("%3A", ':', url)
     print(url)
     req = urllib.request.Request(url)
     req.add_header('User-Agent',
