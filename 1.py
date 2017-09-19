@@ -14,6 +14,7 @@ def findURL(urlname):
     html = response.read().decode('utf-8')
     urls = re.findall(r"http://[^\"\'\n;><)]+",html,re.I)
 
+
     for i in urls:#遍历找到的所有的网址
          print(i)#输出网址
          #findURL(i)#
